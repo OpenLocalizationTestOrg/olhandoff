@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="de-de" original="foo.file" tool-id="efc5618d-952c-4c9b-bd73-702535da5989" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="efc5618d-952c-4c9b-bd73-702535da5989" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="5185f579-ee36-463c-81c7-357ffb486d90">
+        <trans-unit id="f7eda716-6449-436f-b43c-7645b372b3be" xml:space="preserve">
+          <source><bpt id="e94ee48a-8ab8-414a-be76-6859620fa8a9">&lt;em&gt;</bpt>* Test Sennario 1 *<ept id="e94ee48a-8ab8-414a-be76-6859620fa8a9">&lt;/em&gt;</ept></source>
+          <target state="new"><bpt id="e94ee48a-8ab8-414a-be76-6859620fa8a9">&lt;em&gt;</bpt>* Test Sennario 1 *<ept id="e94ee48a-8ab8-414a-be76-6859620fa8a9">&lt;/em&gt;</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
