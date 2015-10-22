@@ -1,0 +1,44 @@
+﻿<markdown_skeleton_root>
+  <block_element>
+    <ArrayOfMarkdownBlockBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <MarkdownBlockBase
+        xsi:type="MarkdownHeaderBlock"
+        item_id="875966ed-647c-4f35-b830-a59b22624729"
+        item_type="Header"
+        item_footer="footer_not_set">
+        <header_type>Star</header_type>
+        <header_level>2</header_level>
+      </MarkdownBlockBase>
+      <MarkdownBlockBase
+        xsi:type="MarkdownListBlock"
+        item_id="b1f841b7-b1ae-4618-8dae-ad69987b31d1"
+        item_type="List"
+        item_footer="&#xA;">
+        <inner_list_items>
+          <ListItem>
+            <MarkdownParagraphBlock
+              item_id="e2ae7820-857b-4bc9-95a3-583aabc67027"
+              item_type="NormalParagraph"
+              item_footer="footer_not_set">
+              <paragraph_segments>
+                <MarkdownSegment>
+                  <SegmentId>f6ce2ca4-8df0-485a-9ed1-fbdfd5c347a7</SegmentId>
+                  <InternalNormalItem
+                    internal_item_id="3e1d24ec-1450-4644-b19a-3043002e037f"
+                    internal_item_type="Normal">
+                    <internal_items />
+                  </InternalNormalItem>
+                </MarkdownSegment>
+              </paragraph_segments>
+            </MarkdownParagraphBlock>
+            <Identifier>* </Identifier>
+          </ListItem>
+        </inner_list_items>
+        <ListType>Charactor</ListType>
+      </MarkdownBlockBase>
+    </ArrayOfMarkdownBlockBase>
+  </block_element>
+  <references>
+    <ArrayOfMarkdownLinkedReference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </references>
+</markdown_skeleton_root>
