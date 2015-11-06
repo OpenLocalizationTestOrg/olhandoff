@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="zh-cn" original="foo.file" tool-id="a4651c0e-c993-44ea-973f-24b75490b4f1" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="a4651c0e-c993-44ea-973f-24b75490b4f1" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">47609b0422629832c77370a4324229c7153ccdd7</olfilehash>
+    </header>
+    <body>
+      <group id="940ea76f-9b84-4727-8a86-ccf4b6ec7e6f">
+        <trans-unit id="866e4c1f-06fd-46fc-b757-c1fcbec8f643" xml:space="preserve">
+          <source>hello from github :)</source>
+          <target state="new">hello from github :)</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
