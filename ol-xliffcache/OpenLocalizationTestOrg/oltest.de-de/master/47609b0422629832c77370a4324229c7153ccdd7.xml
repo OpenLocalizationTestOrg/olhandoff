@@ -1,0 +1,25 @@
+﻿<markdown_skeleton_root>
+  <block_element>
+    <ArrayOfMarkdownBlockBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <MarkdownBlockBase
+        xsi:type="MarkdownHeaderBlock"
+        item_id="be7d548d-621e-42b3-991c-8d19eaeef60f"
+        item_type="Header"
+        item_footer="footer_not_set">
+        <segment>
+          <SegmentId>d23ca6b5-96f7-448f-9f03-7a20507767cd</SegmentId>
+          <InternalNormalItem
+            internal_item_id="ad59f833-3df9-487b-aaa9-13e092fa8218"
+            internal_item_type="Normal">
+            <internal_items />
+          </InternalNormalItem>
+        </segment>
+        <header_type>Star</header_type>
+        <header_level>2</header_level>
+      </MarkdownBlockBase>
+    </ArrayOfMarkdownBlockBase>
+  </block_element>
+  <references>
+    <ArrayOfMarkdownLinkedReference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </references>
+</markdown_skeleton_root>
