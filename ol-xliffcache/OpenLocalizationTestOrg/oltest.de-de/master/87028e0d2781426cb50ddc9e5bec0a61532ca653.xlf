@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="de-de" original="foo.file" tool-id="e43d3a3b-f22c-4609-a1d4-b8a2f1c02b8e" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="e43d3a3b-f22c-4609-a1d4-b8a2f1c02b8e" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">87028e0d2781426cb50ddc9e5bec0a61532ca653</olfilehash>
+    </header>
+    <body>
+      <group id="a3402f6a-d02a-48dd-88df-d7a8bec8e798">
+        <trans-unit id="31ba5684-e6cf-480d-85fa-74f302156eb4" xml:space="preserve">
+          <source>how to generate warning or error for handoff/handback process?</source>
+          <target state="new">how to generate warning or error for handoff/handback process?</target>
+        </trans-unit>
+        <trans-unit id="dabe7246-d7fb-4277-bb1d-579452345b1d" xml:space="preserve">
+          <source><bpt id="cd4bd855-837b-4cbd-ba7a-f7b37ffb968bCapsExtId1">&lt;linkText&gt;</bpt>abc[a-za-z]<ept id="cd4bd855-837b-4cbd-ba7a-f7b37ffb968bCapsExtId1">&lt;/linkText&gt;</ept><bpt id="cd4bd855-837b-4cbd-ba7a-f7b37ffb968bCapsExtId2">&lt;title&gt;</bpt><ept id="cd4bd855-837b-4cbd-ba7a-f7b37ffb968bCapsExtId2">&lt;/title&gt;</ept><bpt id="e9fbc82b-9c53-48be-8185-b8c3dddc90d7CapsExtId1">&lt;linkText&gt;</bpt>\sddd[a]<ept id="e9fbc82b-9c53-48be-8185-b8c3dddc90d7CapsExtId1">&lt;/linkText&gt;</ept><bpt id="e9fbc82b-9c53-48be-8185-b8c3dddc90d7CapsExtId2">&lt;title&gt;</bpt><ept id="e9fbc82b-9c53-48be-8185-b8c3dddc90d7CapsExtId2">&lt;/title&gt;</ept>]\[4]</source>
+          <target state="new"><bpt id="cd4bd855-837b-4cbd-ba7a-f7b37ffb968bCapsExtId1">&lt;linkText&gt;</bpt>abc[a-za-z]<ept id="cd4bd855-837b-4cbd-ba7a-f7b37ffb968bCapsExtId1">&lt;/linkText&gt;</ept><bpt id="cd4bd855-837b-4cbd-ba7a-f7b37ffb968bCapsExtId2">&lt;title&gt;</bpt><ept id="cd4bd855-837b-4cbd-ba7a-f7b37ffb968bCapsExtId2">&lt;/title&gt;</ept><bpt id="e9fbc82b-9c53-48be-8185-b8c3dddc90d7CapsExtId1">&lt;linkText&gt;</bpt>\sddd[a]<ept id="e9fbc82b-9c53-48be-8185-b8c3dddc90d7CapsExtId1">&lt;/linkText&gt;</ept><bpt id="e9fbc82b-9c53-48be-8185-b8c3dddc90d7CapsExtId2">&lt;title&gt;</bpt><ept id="e9fbc82b-9c53-48be-8185-b8c3dddc90d7CapsExtId2">&lt;/title&gt;</ept>]\[4]</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
