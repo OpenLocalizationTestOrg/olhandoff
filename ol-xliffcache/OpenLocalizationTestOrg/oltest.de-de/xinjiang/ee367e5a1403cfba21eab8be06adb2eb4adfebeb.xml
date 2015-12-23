@@ -1,0 +1,92 @@
+﻿<markdown_skeleton_root>
+  <block_element>
+    <ArrayOfMarkdownBlockBase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <MarkdownBlockBase
+        xsi:type="MarkdownHeaderBlock"
+        item_id="39272459-f5fd-43fa-abfa-3eba1737f375"
+        item_type="Header"
+        item_footer="footer_not_set">
+        <segment>
+          <SegmentId>baf4c60f-5d9f-4968-9011-a3836d8e168f</SegmentId>
+          <InternalNormalItem
+            internal_item_id="5a3e6e89-5da0-4977-ac78-6676e279bd00"
+            internal_item_type="Normal">
+            <internal_items />
+          </InternalNormalItem>
+        </segment>
+        <header_type>Star</header_type>
+        <header_level>2</header_level>
+      </MarkdownBlockBase>
+      <MarkdownBlockBase
+        xsi:type="MarkdownListBlock"
+        item_id="7b2a2003-f276-4454-bfbc-b22129a8311c"
+        item_type="List"
+        item_footer="&#xA;">
+        <inner_list_items>
+          <ListItem>
+            <MarkdownParagraphBlock
+              item_id="e4e6d419-de7f-4a10-8635-ab0e601dbcf0"
+              item_type="NormalParagraph"
+              item_footer="footer_not_set">
+              <Lines>
+                <MarkdownLine>
+                  <LineId>d3535b12-ff80-4c8b-ac97-1fe765838bac</LineId>
+                  <paragraph_segments>
+                    <MarkdownSegment>
+                      <SegmentId>b5a6baaa-464a-4e28-be6c-9b29f109fea7</SegmentId>
+                      <InternalNormalItem
+                        internal_item_id="69316f3a-38d1-474c-a2a0-158b96b99c84"
+                        internal_item_type="Normal">
+                        <internal_items />
+                      </InternalNormalItem>
+                    </MarkdownSegment>
+                  </paragraph_segments>
+                  <Prefix />
+                  <Suffix> </Suffix>
+                </MarkdownLine>
+                <MarkdownLine>
+                  <LineId>5c0c81d9-1258-479e-8c5d-6d92f278dcb3</LineId>
+                  <paragraph_segments>
+                    <MarkdownSegment>
+                      <SegmentId>a73c5361-10bb-47f1-ae0a-1f26b8b64735</SegmentId>
+                      <InternalNormalItem
+                        internal_item_id="2b0b3678-3d8d-4c84-b404-19183ca6da65"
+                        internal_item_type="Normal">
+                        <internal_items />
+                      </InternalNormalItem>
+                    </MarkdownSegment>
+                  </paragraph_segments>
+                  <Prefix />
+                  <Suffix />
+                </MarkdownLine>
+              </Lines>
+              <paragraph_segments>
+                <MarkdownSegment>
+                  <SegmentId>b5a6baaa-464a-4e28-be6c-9b29f109fea7</SegmentId>
+                  <InternalNormalItem
+                    internal_item_id="69316f3a-38d1-474c-a2a0-158b96b99c84"
+                    internal_item_type="Normal">
+                    <internal_items />
+                  </InternalNormalItem>
+                </MarkdownSegment>
+                <MarkdownSegment>
+                  <SegmentId>a73c5361-10bb-47f1-ae0a-1f26b8b64735</SegmentId>
+                  <InternalNormalItem
+                    internal_item_id="2b0b3678-3d8d-4c84-b404-19183ca6da65"
+                    internal_item_type="Normal">
+                    <internal_items />
+                  </InternalNormalItem>
+                </MarkdownSegment>
+              </paragraph_segments>
+            </MarkdownParagraphBlock>
+            <Identifier>* </Identifier>
+          </ListItem>
+        </inner_list_items>
+        <ListType>Charactor</ListType>
+      </MarkdownBlockBase>
+    </ArrayOfMarkdownBlockBase>
+  </block_element>
+  <references>
+    <ArrayOfMarkdownLinkedReference xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </references>
+</markdown_skeleton_root>
