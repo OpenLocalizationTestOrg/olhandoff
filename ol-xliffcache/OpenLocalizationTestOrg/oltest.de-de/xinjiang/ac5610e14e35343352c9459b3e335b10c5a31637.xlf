@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="de-de" original="12/24/2015 4:12:24 PM" tool-id="MarkdownTransformer" product-name="N/A" product-version="N/A" build-num="1">
+    <header>
+      <tool tool-id="MarkdownTransformer" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac5610e14e35343352c9459b3e335b10c5a31637</xliffext:olfilehash>
+    </header>
+    <body>
+      <group id="cdf816a7-fdb2-4451-827d-e8df487e930f">
+        <trans-unit id="b94e92fb-f3f7-43f3-ba82-fafb784765dc" xml:space="preserve">
+          <source>ms.ContentId: 526e4f1a-2936-4c61-b3be-d41b4cf9d10f</source>
+          <target state="new">ms.ContentId: 526e4f1a-2936-4c61-b3be-d41b4cf9d10f</target>
+        </trans-unit>
+        <trans-unit id="19892866-a4fb-402e-b8bd-36e63f97dafd" xml:space="preserve">
+          <source>title: About Windows Server Containers</source>
+          <target state="new">title: About Windows Server Containers</target>
+        </trans-unit>
+        <trans-unit id="c531fa23-93f5-4ded-a131-1eebdde96682" xml:space="preserve">
+          <source>Windows Server Containers</source>
+          <target state="new">Windows Server Containers</target>
+        </trans-unit>
+        <trans-unit id="f3ce57bf-797d-4b15-90d5-f02a4590ad7c" xml:space="preserve">
+          <source>Applications fuel innovation in the cloud and mobile era.</source>
+          <target state="new">Applications fuel innovation in the cloud and mobile era.</target>
+        </trans-unit>
+        <trans-unit id="67c99385-c8a7-4028-a7d2-883b82065bd9" xml:space="preserve">
+          <source>Containers, and the ecosystem that is developing around them, will empower software developers to create the next generation of applications experiences.</source>
+          <target state="new">Containers, and the ecosystem that is developing around them, will empower software developers to create the next generation of applications experiences.</target>
+        </trans-unit>
+        <trans-unit id="28b82fc5-43dc-421d-a4bd-705c23c711b3" xml:space="preserve">
+          <source>Watch a short overview: <bpt id="7b18cb9e-0f0e-4798-a2cc-bcdee3b76732CapsExtId1">&lt;linkText&gt;</bpt>Windows-based containers: Modern app development with enterprise-grade control<ept id="7b18cb9e-0f0e-4798-a2cc-bcdee3b76732CapsExtId1">&lt;/linkText&gt;</ept><bpt id="7b18cb9e-0f0e-4798-a2cc-bcdee3b76732CapsExtId2">&lt;title&gt;</bpt><ept id="7b18cb9e-0f0e-4798-a2cc-bcdee3b76732CapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="new">Watch a short overview: <bpt id="7b18cb9e-0f0e-4798-a2cc-bcdee3b76732CapsExtId1">&lt;linkText&gt;</bpt>Windows-based containers: Modern app development with enterprise-grade control<ept id="7b18cb9e-0f0e-4798-a2cc-bcdee3b76732CapsExtId1">&lt;/linkText&gt;</ept><bpt id="7b18cb9e-0f0e-4798-a2cc-bcdee3b76732CapsExtId2">&lt;title&gt;</bpt><ept id="7b18cb9e-0f0e-4798-a2cc-bcdee3b76732CapsExtId2">&lt;/title&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="7a3769e5-dc60-4be8-82c1-21233eed8f58" xml:space="preserve">
+          <source>What are containers?</source>
+          <target state="new">What are containers?</target>
+        </trans-unit>
+        <trans-unit id="87602d4e-c68d-4569-b5fa-5e6afdc6400e" xml:space="preserve">
+          <source>They are an isolated, resource controlled, and portable operating environment.</source>
+          <target state="new">They are an isolated, resource controlled, and portable operating environment.</target>
+        </trans-unit>
+        <trans-unit id="a65897c2-66a9-43d4-af11-86f200edeebb" xml:space="preserve">
+          <source>Basically, a container is an isolated place where an application can run without affecting the rest of the system and without the system affecting the application.</source>
+          <target state="new">Basically, a container is an isolated place where an application can run without affecting the rest of the system and without the system affecting the application.</target>
+        </trans-unit>
+        <trans-unit id="5ccc9c90-4c17-46dd-9d9b-ddf1988d8989" xml:space="preserve">
+          <source>Containers are the next evolution in virtualization.</source>
+          <target state="new">Containers are the next evolution in virtualization.</target>
+        </trans-unit>
+        <trans-unit id="621d920b-5e53-4648-94e6-0e70141b1c99" xml:space="preserve">
+          <source>If you were inside a container, it would look very much like you were inside a freshly installed physical computer or a virtual machine.</source>
+          <target state="new">If you were inside a container, it would look very much like you were inside a freshly installed physical computer or a virtual machine.</target>
+        </trans-unit>
+        <trans-unit id="b0ade874-da7e-41d9-8551-04b192463cc9" xml:space="preserve">
+          <source>And, to <bpt id="56e38aea-7d69-44d1-807a-55e66fe0ed83CapsExtId1">&lt;linkText&gt;</bpt>Docker<ept id="56e38aea-7d69-44d1-807a-55e66fe0ed83CapsExtId1">&lt;/linkText&gt;</ept><bpt id="56e38aea-7d69-44d1-807a-55e66fe0ed83CapsExtId2">&lt;title&gt;</bpt><ept id="56e38aea-7d69-44d1-807a-55e66fe0ed83CapsExtId2">&lt;/title&gt;</ept>, a Windows Server Container can be managed in the same way as any other container.</source>
+          <target state="new">And, to <bpt id="56e38aea-7d69-44d1-807a-55e66fe0ed83CapsExtId1">&lt;linkText&gt;</bpt>Docker<ept id="56e38aea-7d69-44d1-807a-55e66fe0ed83CapsExtId1">&lt;/linkText&gt;</ept><bpt id="56e38aea-7d69-44d1-807a-55e66fe0ed83CapsExtId2">&lt;title&gt;</bpt><ept id="56e38aea-7d69-44d1-807a-55e66fe0ed83CapsExtId2">&lt;/title&gt;</ept>, a Windows Server Container can be managed in the same way as any other container.</target>
+        </trans-unit>
+        <trans-unit id="6c0ce2fa-a524-4729-9e2f-2afdbda84207" xml:space="preserve">
+          <source>Container Fundamentals</source>
+          <target state="new">Container Fundamentals</target>
+        </trans-unit>
+        <trans-unit id="f014ad92-a57b-4dd9-919e-1806b1c062e8" xml:space="preserve">
+          <source>When you begin working with containers you will notice many similarities between a container and a virtual machine.</source>
+          <target state="new">When you begin working with containers you will notice many similarities between a container and a virtual machine.</target>
+        </trans-unit>
+        <trans-unit id="4d7b52b6-1c2e-44f5-8a7d-759bedddfe60" xml:space="preserve">
+          <source>A container runs an operating system, has a file system and can be accessed over a network just as if it was a physical or virtual computer system.</source>
+          <target state="new">A container runs an operating system, has a file system and can be accessed over a network just as if it was a physical or virtual computer system.</target>
+        </trans-unit>
+        <trans-unit id="32469c29-344c-427a-bfbc-d8bc9131b91d" xml:space="preserve">
+          <source>That said, the technology and concepts behind containers are very different from that of virtual machines.</source>
+          <target state="new">That said, the technology and concepts behind containers are very different from that of virtual machines.</target>
+        </trans-unit>
+        <trans-unit id="8c77d964-ddd8-4d45-8577-439406d3e657" xml:space="preserve">
+          <source><bpt id="80a3fb5e-81c5-4ac4-becc-78ea0660cbe9CapsExtId1">&lt;linkText&gt;</bpt>This blog post<ept id="80a3fb5e-81c5-4ac4-becc-78ea0660cbe9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="80a3fb5e-81c5-4ac4-becc-78ea0660cbe9CapsExtId2">&lt;title&gt;</bpt><ept id="80a3fb5e-81c5-4ac4-becc-78ea0660cbe9CapsExtId2">&lt;/title&gt;</ept> by Mark Russinovich explains containers well.</source>
+          <target state="new"><bpt id="80a3fb5e-81c5-4ac4-becc-78ea0660cbe9CapsExtId1">&lt;linkText&gt;</bpt>This blog post<ept id="80a3fb5e-81c5-4ac4-becc-78ea0660cbe9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="80a3fb5e-81c5-4ac4-becc-78ea0660cbe9CapsExtId2">&lt;title&gt;</bpt><ept id="80a3fb5e-81c5-4ac4-becc-78ea0660cbe9CapsExtId2">&lt;/title&gt;</ept> by Mark Russinovich explains containers well.</target>
+        </trans-unit>
+        <trans-unit id="e919f6ec-9587-4fb8-9a22-8ad9c6d73739" xml:space="preserve">
+          <source>The following key concepts will be helpful as you begin creating and working with Windows Server Containers.</source>
+          <target state="new">The following key concepts will be helpful as you begin creating and working with Windows Server Containers.</target>
+        </trans-unit>
+        <trans-unit id="aa36f55a-7a54-4415-b88e-4bba28fc5006" xml:space="preserve">
+          <source><bpt id="a1bfb95d-14ef-43cf-bdec-051bd28dec0f">&lt;strong&gt;</bpt>Container Host:<ept id="a1bfb95d-14ef-43cf-bdec-051bd28dec0f">&lt;/strong&gt;</ept> Physical or Virtual computer system configured with the Windows Server Container feature.</source>
+          <target state="new"><bpt id="a1bfb95d-14ef-43cf-bdec-051bd28dec0f">&lt;strong&gt;</bpt>Container Host:<ept id="a1bfb95d-14ef-43cf-bdec-051bd28dec0f">&lt;/strong&gt;</ept> Physical or Virtual computer system configured with the Windows Server Container feature.</target>
+        </trans-unit>
+        <trans-unit id="41b18b93-c470-40fe-a60b-52efe5db0e23" xml:space="preserve">
+          <source>The container host will run one or more Windows Server Containers.</source>
+          <target state="new">The container host will run one or more Windows Server Containers.</target>
+        </trans-unit>
+        <trans-unit id="e9a5c334-d6d7-498a-9892-a8decdba1f9b" xml:space="preserve">
+          <source><bpt id="19629f3f-5c8b-4372-a821-5d225a7330e0">&lt;strong&gt;</bpt>Container Image:<ept id="19629f3f-5c8b-4372-a821-5d225a7330e0">&lt;/strong&gt;</ept> As modifications are made to a containers file system or registry, such as with software installation they are captured in the sandbox.</source>
+          <target state="new"><bpt id="19629f3f-5c8b-4372-a821-5d225a7330e0">&lt;strong&gt;</bpt>Container Image:<ept id="19629f3f-5c8b-4372-a821-5d225a7330e0">&lt;/strong&gt;</ept> As modifications are made to a containers file system or registry, such as with software installation they are captured in the sandbox.</target>
+        </trans-unit>
+        <trans-unit id="6733aed1-2edf-407a-bb6a-8afda9275d10" xml:space="preserve">
+          <source>In many cases you may want to capture this state such that new containers can be created that inherit these changes.</source>
+          <target state="new">In many cases you may want to capture this state such that new containers can be created that inherit these changes.</target>
+        </trans-unit>
+        <trans-unit id="d96d97a9-2baa-4c04-a0bd-685f775b9065" xml:space="preserve">
+          <source>That’s what an image is – once the container has stopped you can either discard that sandbox or you can convert it into a new container image.</source>
+          <target state="new">That’s what an image is – once the container has stopped you can either discard that sandbox or you can convert it into a new container image.</target>
+        </trans-unit>
+        <trans-unit id="5c4df151-2118-46d8-aedf-aaaedce86b56" xml:space="preserve">
+          <source>For example, let’s imagine that you have deployed a container from the Windows Server Core OS image.</source>
+          <target state="new">For example, let’s imagine that you have deployed a container from the Windows Server Core OS image.</target>
+        </trans-unit>
+        <trans-unit id="36f24fa2-13d0-40ac-90c8-e84ec6d08884" xml:space="preserve">
+          <source>You then install MySQL into this container.</source>
+          <target state="new">You then install MySQL into this container.</target>
+        </trans-unit>
+        <trans-unit id="99bbc47c-de1f-4d57-9af4-b12a24b75047" xml:space="preserve">
+          <source>Creating a new image from this container would act as a deployable version of the container.</source>
+          <target state="new">Creating a new image from this container would act as a deployable version of the container.</target>
+        </trans-unit>
+        <trans-unit id="84bc0cb0-9beb-437b-93de-1c7b402f7472" xml:space="preserve">
+          <source>This image would only contain the changes made (MySQL), however would work as a layer on top of the Container OS Image.</source>
+          <target state="new">This image would only contain the changes made (MySQL), however would work as a layer on top of the Container OS Image.</target>
+        </trans-unit>
+        <trans-unit id="e6ef7f41-b1e6-447a-9c6f-1b2a2a9d2250" xml:space="preserve">
+          <source><bpt id="c887014b-2140-4b11-abf9-a4e0cc025c0b">&lt;strong&gt;</bpt>Sandbox:<ept id="c887014b-2140-4b11-abf9-a4e0cc025c0b">&lt;/strong&gt;</ept> Once a container has been started, all write actions such as file system modifications, registry modifications or software installations are captured in this ‘sandbox’ layer.</source>
+          <target state="new"><bpt id="c887014b-2140-4b11-abf9-a4e0cc025c0b">&lt;strong&gt;</bpt>Sandbox:<ept id="c887014b-2140-4b11-abf9-a4e0cc025c0b">&lt;/strong&gt;</ept> Once a container has been started, all write actions such as file system modifications, registry modifications or software installations are captured in this ‘sandbox’ layer.</target>
+        </trans-unit>
+        <trans-unit id="e05b3057-ccda-4e4f-ae5b-dc97fa0fc532" xml:space="preserve">
+          <source><bpt id="6c8c7ac9-df38-4905-a8f0-923a8ce74eab">&lt;strong&gt;</bpt>Container OS Image:<ept id="6c8c7ac9-df38-4905-a8f0-923a8ce74eab">&lt;/strong&gt;</ept> Containers are deployed from images.</source>
+          <target state="new"><bpt id="6c8c7ac9-df38-4905-a8f0-923a8ce74eab">&lt;strong&gt;</bpt>Container OS Image:<ept id="6c8c7ac9-df38-4905-a8f0-923a8ce74eab">&lt;/strong&gt;</ept> Containers are deployed from images.</target>
+        </trans-unit>
+        <trans-unit id="dd839846-0ee0-4af3-a8ec-78a313b973de" xml:space="preserve">
+          <source>The container OS image is the first layer in potentially many image layers that make up a container.</source>
+          <target state="new">The container OS image is the first layer in potentially many image layers that make up a container.</target>
+        </trans-unit>
+        <trans-unit id="3380d6bd-f9e5-4aad-bdb8-b6de632c64e8" xml:space="preserve">
+          <source>This image provides the operating system environment.</source>
+          <target state="new">This image provides the operating system environment.</target>
+        </trans-unit>
+        <trans-unit id="00ce7dda-bb54-4a81-8785-a0e5a3a638d7" xml:space="preserve">
+          <source>A Container OS Image is Immutable, it cannot be modified.</source>
+          <target state="new">A Container OS Image is Immutable, it cannot be modified.</target>
+        </trans-unit>
+        <trans-unit id="2e6d6ca5-914f-4838-9572-9814b90f027f" xml:space="preserve">
+          <source><bpt id="edbee9aa-26bc-4c95-8f6d-3405a743397b">&lt;strong&gt;</bpt>Container Repository:<ept id="edbee9aa-26bc-4c95-8f6d-3405a743397b">&lt;/strong&gt;</ept> Each time a container image is created the container image and its dependencies are stored in a local repository.</source>
+          <target state="new"><bpt id="edbee9aa-26bc-4c95-8f6d-3405a743397b">&lt;strong&gt;</bpt>Container Repository:<ept id="edbee9aa-26bc-4c95-8f6d-3405a743397b">&lt;/strong&gt;</ept> Each time a container image is created the container image and its dependencies are stored in a local repository.</target>
+        </trans-unit>
+        <trans-unit id="7852745f-1888-4682-b900-55da6650a1f2" xml:space="preserve">
+          <source>These images can be reused many times on the container host.</source>
+          <target state="new">These images can be reused many times on the container host.</target>
+        </trans-unit>
+        <trans-unit id="db387817-9032-4120-adfa-4147e0bfb246" xml:space="preserve">
+          <source>The container images can also be stored in a public or private repository such as DockerHub so that they can be used across many different container host.</source>
+          <target state="new">The container images can also be stored in a public or private repository such as DockerHub so that they can be used across many different container host.</target>
+        </trans-unit>
+        <trans-unit id="10c32c0f-ad0e-4b72-81ac-5f6d2d79283d" xml:space="preserve">
+          <source><bpt id="689b8325-cb7c-481b-8db4-669c8ad0281b">&lt;strong&gt;</bpt>Container Management Technology:<ept id="689b8325-cb7c-481b-8db4-669c8ad0281b">&lt;/strong&gt;</ept> Windows Server Containers can be managed using both PowerShell and Docker.</source>
+          <target state="new"><bpt id="689b8325-cb7c-481b-8db4-669c8ad0281b">&lt;strong&gt;</bpt>Container Management Technology:<ept id="689b8325-cb7c-481b-8db4-669c8ad0281b">&lt;/strong&gt;</ept> Windows Server Containers can be managed using both PowerShell and Docker.</target>
+        </trans-unit>
+        <trans-unit id="e74c80c5-67c3-40ea-9a25-7869ccedf6c2" xml:space="preserve">
+          <source>With either one of these tools you can create new containers, container images as well as manage the container lifecycle.</source>
+          <target state="new">With either one of these tools you can create new containers, container images as well as manage the container lifecycle.</target>
+        </trans-unit>
+        <trans-unit id="968b5d51-f70a-49ac-9ef6-adafb4e7a453" xml:space="preserve">
+          <source><bpt id="49ff5a91-1e81-4b05-9fd4-983a919b493b">&lt;html&gt;</bpt><ept id="49ff5a91-1e81-4b05-9fd4-983a919b493b">&lt;/html&gt;</ept><bpt id="2c4ebe9e-4cbf-4ead-bcec-9ddab2b2492a">&lt;linkText&gt;</bpt><ept id="2c4ebe9e-4cbf-4ead-bcec-9ddab2b2492a">&lt;/linkText&gt;</ept><bpt id="3ac40d64-f499-4be5-9ca9-9b1cbd186cc3">&lt;html&gt;</bpt><ept id="3ac40d64-f499-4be5-9ca9-9b1cbd186cc3">&lt;/html&gt;</ept></source>
+          <target state="new"><bpt id="49ff5a91-1e81-4b05-9fd4-983a919b493b">&lt;html&gt;</bpt><ept id="49ff5a91-1e81-4b05-9fd4-983a919b493b">&lt;/html&gt;</ept><bpt id="2c4ebe9e-4cbf-4ead-bcec-9ddab2b2492a">&lt;linkText&gt;</bpt><ept id="2c4ebe9e-4cbf-4ead-bcec-9ddab2b2492a">&lt;/linkText&gt;</ept><bpt id="3ac40d64-f499-4be5-9ca9-9b1cbd186cc3">&lt;html&gt;</bpt><ept id="3ac40d64-f499-4be5-9ca9-9b1cbd186cc3">&lt;/html&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="c618ff7d-58aa-4cfa-9857-e009e7f29ba7" xml:space="preserve">
+          <source>Containers for Developers</source>
+          <target state="new">Containers for Developers</target>
+        </trans-unit>
+        <trans-unit id="0179f8ec-e20e-46e5-95c0-d9a532f94a58" xml:space="preserve">
+          <source>From a developer’s desktop to a testing machine to a set of production machines, a Docker image can be created that will deploy identically across any environment in seconds.</source>
+          <target state="new">From a developer’s desktop to a testing machine to a set of production machines, a Docker image can be created that will deploy identically across any environment in seconds.</target>
+        </trans-unit>
+        <trans-unit id="9e989923-01e9-4ac7-86e0-1d78cdb9ae2a" xml:space="preserve">
+          <source>This story has created a massive and growing ecosystem of applications packaged in Docker containers, with DockerHub, the public containerized-application registry that Docker maintains, currently publishing more than 180,000 applications in the public community repository.</source>
+          <target state="new">This story has created a massive and growing ecosystem of applications packaged in Docker containers, with DockerHub, the public containerized-application registry that Docker maintains, currently publishing more than 180,000 applications in the public community repository.</target>
+        </trans-unit>
+        <trans-unit id="cc1f905c-e7d5-482f-95b3-fbdc02a88d27" xml:space="preserve">
+          <source>When you containerize an app, only the app and the components needed to run the app are combined into an "image".</source>
+          <target state="new">When you containerize an app, only the app and the components needed to run the app are combined into an "image".</target>
+        </trans-unit>
+        <trans-unit id="fc8a675a-9b71-49b6-be5b-d1b0195edcbf" xml:space="preserve">
+          <source>Containers are then created from this image as you need them.</source>
+          <target state="new">Containers are then created from this image as you need them.</target>
+        </trans-unit>
+        <trans-unit id="a046b1a2-5434-45ce-b11b-cd9e0785fd8a" xml:space="preserve">
+          <source>You can also use an image as a baseline to create another image, making image creation even faster.</source>
+          <target state="new">You can also use an image as a baseline to create another image, making image creation even faster.</target>
+        </trans-unit>
+        <trans-unit id="fd3a7d61-c130-4bcb-b275-5f178e8b8391" xml:space="preserve">
+          <source>Multiple containers can share the same image, which means containers start very quickly and use fewer resources.</source>
+          <target state="new">Multiple containers can share the same image, which means containers start very quickly and use fewer resources.</target>
+        </trans-unit>
+        <trans-unit id="5a25e85a-710e-4f56-9d86-b59d93b96732" xml:space="preserve">
+          <source>For example, you can use containers to spin up light-weight and portable app components – or ‘micro-services’ – for distributed apps and quickly scale each service separately.</source>
+          <target state="new">For example, you can use containers to spin up light-weight and portable app components – or ‘micro-services’ – for distributed apps and quickly scale each service separately.</target>
+        </trans-unit>
+        <trans-unit id="2581537e-ec60-4e5b-8232-26dafdb90e66" xml:space="preserve">
+          <source>Because the container has everything it needs to run your application, they are very portable and can run on any machine that is running Windows Server 2016.</source>
+          <target state="new">Because the container has everything it needs to run your application, they are very portable and can run on any machine that is running Windows Server 2016.</target>
+        </trans-unit>
+        <trans-unit id="a999e3d0-638d-473d-aa73-648a38507672" xml:space="preserve">
+          <source>You can create and test containers locally, then deploy that same container image to your company's private cloud, public cloud or service provider.</source>
+          <target state="new">You can create and test containers locally, then deploy that same container image to your company's private cloud, public cloud or service provider.</target>
+        </trans-unit>
+        <trans-unit id="137a6209-f3da-4fee-90c1-88fdba7d08a0" xml:space="preserve">
+          <source>The natural agility of Containers supports modern app development patterns in large scale, virtualized and cloud environments.</source>
+          <target state="new">The natural agility of Containers supports modern app development patterns in large scale, virtualized and cloud environments.</target>
+        </trans-unit>
+        <trans-unit id="47e9a7f5-3f92-4740-8b8a-14fa6aa46959" xml:space="preserve">
+          <source>With containers, developers can build an app in any language.</source>
+          <target state="new">With containers, developers can build an app in any language.</target>
+        </trans-unit>
+        <trans-unit id="2a0c6b8b-3eb7-4e8d-840a-d45d03b3ab20" xml:space="preserve">
+          <source>These apps are completely portable and can run anywhere - laptop, desktop, server, private cloud, public cloud or service provider - without any code changes.</source>
+          <target state="new">These apps are completely portable and can run anywhere - laptop, desktop, server, private cloud, public cloud or service provider - without any code changes.</target>
+        </trans-unit>
+        <trans-unit id="53dd2910-ec5b-42c0-af1f-9188f50bdbae" xml:space="preserve">
+          <source>Containers helps developers build and ship higher-quality applications, faster.</source>
+          <target state="new">Containers helps developers build and ship higher-quality applications, faster.</target>
+        </trans-unit>
+        <trans-unit id="4ab21d7a-7bb3-47a7-a02a-4aa8f287f73f" xml:space="preserve">
+          <source>Containers for IT Professionals</source>
+          <target state="new">Containers for IT Professionals</target>
+        </trans-unit>
+        <trans-unit id="e1942e51-2ca7-4e57-9495-1b36031b04e8" xml:space="preserve">
+          <source>IT Professionals can use containers to provide standardized environments for their development, QA, and production teams.</source>
+          <target state="new">IT Professionals can use containers to provide standardized environments for their development, QA, and production teams.</target>
+        </trans-unit>
+        <trans-unit id="9cd61468-63ed-4073-a771-bc950e046a88" xml:space="preserve">
+          <source>They no longer have to worry about complex installation and configuration steps.</source>
+          <target state="new">They no longer have to worry about complex installation and configuration steps.</target>
+        </trans-unit>
+        <trans-unit id="757fce3b-e75f-4e82-8e8a-daeb9dfe1c02" xml:space="preserve">
+          <source>By using containers, systems administrators abstract away differences in OS installations and underlying infrastructure.</source>
+          <target state="new">By using containers, systems administrators abstract away differences in OS installations and underlying infrastructure.</target>
+        </trans-unit>
+        <trans-unit id="3fe4f716-e59d-4c52-877f-090b3d36da79" xml:space="preserve">
+          <source>Containers help admins create an infrastructure that is simpler to update and maintain.</source>
+          <target state="new">Containers help admins create an infrastructure that is simpler to update and maintain.</target>
+        </trans-unit>
+        <trans-unit id="b2905c59-521e-475c-a7ef-15fccbf91157" xml:space="preserve">
+          <source>Video Overview</source>
+          <target state="new">Video Overview</target>
+        </trans-unit>
+        <trans-unit id="4d0ecaea-74b8-423c-aacd-913601137347" xml:space="preserve">
+          <source>&lt;iframe</source>
+          <target state="new">&lt;iframe</target>
+        </trans-unit>
+        <trans-unit id="a65ff108-fe79-4216-8449-89567e3dac9c" xml:space="preserve">
+          <source>src="https://channel9.msdn.com/Blogs/containers/Containers-101-with-Microsoft-and-Docker/player" width="960" height="540" allowFullScreen="true" frameBorder="0" scrolling="no"&gt;<bpt id="1def7fe3-cfda-4be6-8afd-a629debba95e">&lt;html&gt;</bpt><ept id="1def7fe3-cfda-4be6-8afd-a629debba95e">&lt;/html&gt;</ept></source>
+          <target state="new">src="https://channel9.msdn.com/Blogs/containers/Containers-101-with-Microsoft-and-Docker/player" width="960" height="540" allowFullScreen="true" frameBorder="0" scrolling="no"&gt;<bpt id="1def7fe3-cfda-4be6-8afd-a629debba95e">&lt;html&gt;</bpt><ept id="1def7fe3-cfda-4be6-8afd-a629debba95e">&lt;/html&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="ca8dbb19-e55a-40cd-a4b9-8c70cb4b44e5" xml:space="preserve">
+          <source>Try Windows Server Containers</source>
+          <target state="new">Try Windows Server Containers</target>
+        </trans-unit>
+        <trans-unit id="cbcfdafc-7732-4526-81f9-973692be709d" xml:space="preserve">
+          <source><bpt id="ab8491ae-489c-4225-9d2a-02bb1eda003cCapsExtId1">&lt;linkText&gt;</bpt>Get started with Windows Server Containers in Windows Azure<ept id="ab8491ae-489c-4225-9d2a-02bb1eda003cCapsExtId1">&lt;/linkText&gt;</ept><bpt id="ab8491ae-489c-4225-9d2a-02bb1eda003cCapsExtId2">&lt;title&gt;</bpt><ept id="ab8491ae-489c-4225-9d2a-02bb1eda003cCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="ab8491ae-489c-4225-9d2a-02bb1eda003cCapsExtId1">&lt;linkText&gt;</bpt>Get started with Windows Server Containers in Windows Azure<ept id="ab8491ae-489c-4225-9d2a-02bb1eda003cCapsExtId1">&lt;/linkText&gt;</ept><bpt id="ab8491ae-489c-4225-9d2a-02bb1eda003cCapsExtId2">&lt;title&gt;</bpt><ept id="ab8491ae-489c-4225-9d2a-02bb1eda003cCapsExtId2">&lt;/title&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="a82de804-e5cc-4851-978b-7fbd7f2b2b48" xml:space="preserve">
+          <source><bpt id="91ae3a0e-2a9d-468d-b993-dac40d55fc10CapsExtId1">&lt;linkText&gt;</bpt>Get started with Windows Server Containers Locally<ept id="91ae3a0e-2a9d-468d-b993-dac40d55fc10CapsExtId1">&lt;/linkText&gt;</ept><bpt id="91ae3a0e-2a9d-468d-b993-dac40d55fc10CapsExtId2">&lt;title&gt;</bpt><ept id="91ae3a0e-2a9d-468d-b993-dac40d55fc10CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="91ae3a0e-2a9d-468d-b993-dac40d55fc10CapsExtId1">&lt;linkText&gt;</bpt>Get started with Windows Server Containers Locally<ept id="91ae3a0e-2a9d-468d-b993-dac40d55fc10CapsExtId1">&lt;/linkText&gt;</ept><bpt id="91ae3a0e-2a9d-468d-b993-dac40d55fc10CapsExtId2">&lt;title&gt;</bpt><ept id="91ae3a0e-2a9d-468d-b993-dac40d55fc10CapsExtId2">&lt;/title&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="63d4e1db-1d11-4c28-a9ef-28f745a37613" xml:space="preserve">
+          <source><bpt id="f6cb0daf-da98-49d8-9aca-a329d46c577bCapsExtId1">&lt;linkText&gt;</bpt>Back to Container Home<ept id="f6cb0daf-da98-49d8-9aca-a329d46c577bCapsExtId1">&lt;/linkText&gt;</ept><bpt id="f6cb0daf-da98-49d8-9aca-a329d46c577bCapsExtId2">&lt;title&gt;</bpt><ept id="f6cb0daf-da98-49d8-9aca-a329d46c577bCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="f6cb0daf-da98-49d8-9aca-a329d46c577bCapsExtId1">&lt;linkText&gt;</bpt>Back to Container Home<ept id="f6cb0daf-da98-49d8-9aca-a329d46c577bCapsExtId1">&lt;/linkText&gt;</ept><bpt id="f6cb0daf-da98-49d8-9aca-a329d46c577bCapsExtId2">&lt;title&gt;</bpt><ept id="f6cb0daf-da98-49d8-9aca-a329d46c577bCapsExtId2">&lt;/title&gt;</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
