@@ -1,0 +1,109 @@
+﻿<markdown_skeleton_root>
+  <block_element>
+    <ArrayOfMarkdownBlockBase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <MarkdownBlockBase
+        xsi:type="MarkdownHeaderBlock"
+        item_id="4d32845f-a622-474d-9600-b3ad9dc4aef1"
+        item_type="Header"
+        item_footer="footer_not_set"
+        trans_unit_id="4d32845f-a622-474d-9600-b3ad9dc4aef1">
+        <segment
+          trans_unit_id="101">
+          <SegmentId>96b013c4-7836-4881-a42e-f0d31e6a413c</SegmentId>
+          <InternalNormalItem
+            internal_item_id="1"
+            internal_item_parent_id="101"
+            trans_unit_id="101-1"
+            internal_item_type="Normal">
+            <internal_items />
+          </InternalNormalItem>
+        </segment>
+        <header_type>Star</header_type>
+        <header_level>1</header_level>
+      </MarkdownBlockBase>
+      <MarkdownBlockBase
+        xsi:type="MarkdownParagraphBlock"
+        item_id="ca434940-37fe-4ecb-ae64-b3c9ec078819"
+        item_type="NormalParagraph"
+        item_footer="&#xA;&#xA;"
+        trans_unit_id="ca434940-37fe-4ecb-ae64-b3c9ec078819">
+        <Lines>
+          <MarkdownLine>
+            <LineId>ef2433cd-2c59-49cd-8f57-f669310f4717</LineId>
+            <paragraph_segments>
+              <MarkdownSegment
+                trans_unit_id="102">
+                <SegmentId>b667a4d7-ead1-4c3c-a228-ae72c246c142</SegmentId>
+                <LinkItem
+                  internal_item_id="1"
+                  internal_item_parent_id="102"
+                  trans_unit_id="102-1"
+                  internal_item_type="Link">
+                  <internal_items />
+                  <internal_link_type>Reference</internal_link_type>
+                  <internal_link_text>abc</internal_link_text>
+                  <internal_link_id>a-za-z</internal_link_id>
+                </LinkItem>
+                <LinkItem
+                  internal_item_id="2"
+                  internal_item_parent_id="102"
+                  trans_unit_id="102-2"
+                  internal_item_type="Link">
+                  <internal_items />
+                  <internal_link_type>Reference</internal_link_type>
+                  <internal_link_text>\sddd</internal_link_text>
+                  <internal_link_id>a</internal_link_id>
+                </LinkItem>
+                <InternalNormalItem
+                  internal_item_id="3"
+                  internal_item_parent_id="102"
+                  trans_unit_id="102-3"
+                  internal_item_type="Normal">
+                  <internal_items />
+                </InternalNormalItem>
+              </MarkdownSegment>
+            </paragraph_segments>
+            <PrefixWSLength>0</PrefixWSLength>
+            <SuffixWSLength>0</SuffixWSLength>
+          </MarkdownLine>
+        </Lines>
+        <paragraph_segments>
+          <MarkdownSegment
+            trans_unit_id="102">
+            <SegmentId>b667a4d7-ead1-4c3c-a228-ae72c246c142</SegmentId>
+            <LinkItem
+              internal_item_id="1"
+              internal_item_parent_id="102"
+              trans_unit_id="102-1"
+              internal_item_type="Link">
+              <internal_items />
+              <internal_link_type>Reference</internal_link_type>
+              <internal_link_text>abc</internal_link_text>
+              <internal_link_id>a-za-z</internal_link_id>
+            </LinkItem>
+            <LinkItem
+              internal_item_id="2"
+              internal_item_parent_id="102"
+              trans_unit_id="102-2"
+              internal_item_type="Link">
+              <internal_items />
+              <internal_link_type>Reference</internal_link_type>
+              <internal_link_text>\sddd</internal_link_text>
+              <internal_link_id>a</internal_link_id>
+            </LinkItem>
+            <InternalNormalItem
+              internal_item_id="3"
+              internal_item_parent_id="102"
+              trans_unit_id="102-3"
+              internal_item_type="Normal">
+              <internal_items />
+            </InternalNormalItem>
+          </MarkdownSegment>
+        </paragraph_segments>
+      </MarkdownBlockBase>
+    </ArrayOfMarkdownBlockBase>
+  </block_element>
+  <references>
+    <ArrayOfMarkdownLinkedReference xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </references>
+</markdown_skeleton_root>
