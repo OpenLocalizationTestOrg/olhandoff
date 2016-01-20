@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="de-de" original="1/20/2016 11:22:53 AM" tool-id="MarkdownTransformer" product-name="N/A" product-version="N/A" build-num="1">
+    <header>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc1bd22aaf8c51a4835b167542d4801208114909</xliffext:olfilehash>
+      <tool tool-id="MarkdownTransformer" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group extype="content">
+        <group id="101">
+          <trans-unit id="101" xml:space="preserve">
+            <source>Attestation Signing a Kernel Driver for Public Release</source>
+            <target state="new">Attestation Signing a Kernel Driver for Public Release</target>
+          </trans-unit>
+          <trans-unit id="102" xml:space="preserve">
+            <source>This topic describes how to sign a driver using attestation signing via the Windows Hardware Developer Center Dashboard web portal.</source>
+            <target state="new">This topic describes how to sign a driver using attestation signing via the Windows Hardware Developer Center Dashboard web portal.</target>
+          </trans-unit>
+          <trans-unit id="103" xml:space="preserve">
+            <source><bpt id="1">&lt;strong&gt;</bpt>Note<ept id="1">&lt;/strong&gt;</ept>  Attestation signing has the following properties.</source>
+            <target state="new"><bpt id="1">&lt;strong&gt;</bpt>Note<ept id="1">&lt;/strong&gt;</ept>  Attestation signing has the following properties.</target>
+          </trans-unit>
+          <trans-unit id="104" xml:space="preserve">
+            <source>Attestation signing supports Windows 10 Desktop kernel mode and user mode drivers.</source>
+            <target state="new">Attestation signing supports Windows 10 Desktop kernel mode and user mode drivers.</target>
+          </trans-unit>
+          <trans-unit id="105" xml:space="preserve">
+            <source>Although user mode drivers do not need to be signed by Microsoft for Windows 10, the same attestation process can be used for both user and kernel mode drivers.</source>
+            <target state="new">Although user mode drivers do not need to be signed by Microsoft for Windows 10, the same attestation process can be used for both user and kernel mode drivers.</target>
+          </trans-unit>
+          <trans-unit id="106" xml:space="preserve">
+            <source>Attestation signing requires the use of an EV Certificate to submit the driver to the Hardware Dev Center Dashboard.</source>
+            <target state="new">Attestation signing requires the use of an EV Certificate to submit the driver to the Hardware Dev Center Dashboard.</target>
+          </trans-unit>
+          <trans-unit id="107" xml:space="preserve">
+            <source>An attestation signed driver will only work for Windows 10 Desktop, it will not work for other versions of Windows, such as Windows Server 2016, Windows 8.1, or Windows 7.</source>
+            <target state="new">An attestation signed driver will only work for Windows 10 Desktop, it will not work for other versions of Windows, such as Windows Server 2016, Windows 8.1, or Windows 7.</target>
+          </trans-unit>
+          <trans-unit id="108" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Attestation Signing a Kernel Mode Driver</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Attestation Signing a Kernel Mode Driver</target>
+          </trans-unit>
+          <trans-unit id="109" xml:space="preserve">
+            <source>To attestation sign a kernel mode driver complete the following steps:</source>
+            <target state="new">To attestation sign a kernel mode driver complete the following steps:</target>
+          </trans-unit>
+          <trans-unit id="110" xml:space="preserve">
+            <source>Acquire an EV Code Signing Certificate</source>
+            <target state="new">Acquire an EV Code Signing Certificate</target>
+          </trans-unit>
+          <trans-unit id="111" xml:space="preserve">
+            <source>Register your company for Windows Hardware Dashboard Services</source>
+            <target state="new">Register your company for Windows Hardware Dashboard Services</target>
+          </trans-unit>
+          <trans-unit id="112" xml:space="preserve">
+            <source>Download and install the Windows Driver Kit</source>
+            <target state="new">Download and install the Windows Driver Kit</target>
+          </trans-unit>
+          <trans-unit id="113" xml:space="preserve">
+            <source>Create a CAB files submission</source>
+            <target state="new">Create a CAB files submission</target>
+          </trans-unit>
+          <trans-unit id="114" xml:space="preserve">
+            <source>Sign the CAB file submission with your EV Cert</source>
+            <target state="new">Sign the CAB file submission with your EV Cert</target>
+          </trans-unit>
+          <trans-unit id="115" xml:space="preserve">
+            <source>Submit the EV signed Cab file using the Hardware Dev Center Dashboard</source>
+            <target state="new">Submit the EV signed Cab file using the Hardware Dev Center Dashboard</target>
+          </trans-unit>
+          <trans-unit id="116" xml:space="preserve">
+            <source>Validate that the driver was properly signed</source>
+            <target state="new">Validate that the driver was properly signed</target>
+          </trans-unit>
+          <trans-unit id="117" xml:space="preserve">
+            <source>Test your driver on Windows 10 for Desktop</source>
+            <target state="new">Test your driver on Windows 10 for Desktop</target>
+          </trans-unit>
+          <trans-unit id="118" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Acquire an EV Code Signing Certificate</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Acquire an EV Code Signing Certificate</target>
+          </trans-unit>
+          <trans-unit id="119" xml:space="preserve">
+            <source>Before you can submit binaries files using the dashboard to be signed, you need to acquire an extended validation (EV) code signing certificate to secure your digital information.</source>
+            <target state="new">Before you can submit binaries files using the dashboard to be signed, you need to acquire an extended validation (EV) code signing certificate to secure your digital information.</target>
+          </trans-unit>
+          <trans-unit id="120" xml:space="preserve">
+            <source>This certificate is the accepted standard for establishing your company’s ownership of the code you submit.</source>
+            <target state="new">This certificate is the accepted standard for establishing your company’s ownership of the code you submit.</target>
+          </trans-unit>
+          <trans-unit id="121" xml:space="preserve">
+            <source>It allows you to digitally sign PE binaries, such as .exe, .cab, .dll, .ocx, .msi, .xpi and .xap files.</source>
+            <target state="new">It allows you to digitally sign PE binaries, such as .exe, .cab, .dll, .ocx, .msi, .xpi and .xap files.</target>
+          </trans-unit>
+          <trans-unit id="122" xml:space="preserve">
+            <source>Follow the process described in <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>Get a code signing certificate<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept> to acquire the needed EV code signing certificate.</source>
+            <target state="new">Follow the process described in <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>Get a code signing certificate<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept> to acquire the needed EV code signing certificate.</target>
+          </trans-unit>
+          <trans-unit id="123" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Register your company for Windows Hardware Dashboard Services</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Register your company for Windows Hardware Dashboard Services</target>
+          </trans-unit>
+          <trans-unit id="124" xml:space="preserve">
+            <source>You can certify your devices and apps for hardware certification using the Hardware Dev Center Dashboard.</source>
+            <target state="new">You can certify your devices and apps for hardware certification using the Hardware Dev Center Dashboard.</target>
+          </trans-unit>
+          <trans-unit id="125" xml:space="preserve">
+            <source>To access the Hardware Dev Center Dashboard, you’ll need to register your company and get a code signing certificate.</source>
+            <target state="new">To access the Hardware Dev Center Dashboard, you’ll need to register your company and get a code signing certificate.</target>
+          </trans-unit>
+          <trans-unit id="126" xml:space="preserve">
+            <source>Follow the process described in <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>Before You Sign In<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept> to set up the account you will need on the dashboard.</source>
+            <target state="new">Follow the process described in <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>Before You Sign In<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept> to set up the account you will need on the dashboard.</target>
+          </trans-unit>
+          <trans-unit id="127" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept> Download and install the Windows Driver Kit</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept> Download and install the Windows Driver Kit</target>
+          </trans-unit>
+          <trans-unit id="128" xml:space="preserve">
+            <source>You will need to download and install the Windows Driver Kit (WDK) to gain access to tools that are used to sign binary files.</source>
+            <target state="new">You will need to download and install the Windows Driver Kit (WDK) to gain access to tools that are used to sign binary files.</target>
+          </trans-unit>
+          <trans-unit id="129" xml:space="preserve">
+            <source>Follow the process described in <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>Download kits and tools for Windows 10<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept> to download and install the WDK.</source>
+            <target state="new">Follow the process described in <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>Download kits and tools for Windows 10<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept> to download and install the WDK.</target>
+          </trans-unit>
+          <trans-unit id="130" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Create a CAB Files Submission</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Create a CAB Files Submission</target>
+          </trans-unit>
+          <trans-unit id="131" xml:space="preserve">
+            <source>To create a CAB files submission for the dashboard complete the following steps.</source>
+            <target state="new">To create a CAB files submission for the dashboard complete the following steps.</target>
+          </trans-unit>
+          <trans-unit id="132" xml:space="preserve">
+            <source>Gather the binaries that you will submit to be signed in a single directory.</source>
+            <target state="new">Gather the binaries that you will submit to be signed in a single directory.</target>
+          </trans-unit>
+          <trans-unit id="133" xml:space="preserve">
+            <source>In this example, we will use C:\\Echo.</source>
+            <target state="new">In this example, we will use C:\\Echo.</target>
+          </trans-unit>
+          <trans-unit id="134" xml:space="preserve">
+            <source>The steps described here, will reference the echo driver available in GitHub at this location.</source>
+            <target state="new">The steps described here, will reference the echo driver available in GitHub at this location.</target>
+          </trans-unit>
+          <trans-unit id="135" xml:space="preserve">
+            <source><bpt id="1CapsExtId1">&lt;link&gt;</bpt><bpt id="1CapsExtId2">&lt;linkText&gt;</bpt>https://github.com/Microsoft/Windows-driver-samples/tree/master/general/echo/kmdf/driver/AutoSync<ept id="1CapsExtId2">&lt;/linkText&gt;</ept><bpt id="1CapsExtId3">&lt;title&gt;</bpt><ept id="1CapsExtId3">&lt;/title&gt;</ept><ept id="1CapsExtId1">&lt;/link&gt;</ept></source>
+            <target state="new"><bpt id="1CapsExtId1">&lt;link&gt;</bpt><bpt id="1CapsExtId2">&lt;linkText&gt;</bpt>https://github.com/Microsoft/Windows-driver-samples/tree/master/general/echo/kmdf/driver/AutoSync<ept id="1CapsExtId2">&lt;/linkText&gt;</ept><bpt id="1CapsExtId3">&lt;title&gt;</bpt><ept id="1CapsExtId3">&lt;/title&gt;</ept><ept id="1CapsExtId1">&lt;/link&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="136" xml:space="preserve">
+            <source>Typical cab file submissions contain the following.</source>
+            <target state="new">Typical cab file submissions contain the following.</target>
+          </trans-unit>
+          <trans-unit id="137" xml:space="preserve">
+            <source>The driver itself, for example Echo.sys</source>
+            <target state="new">The driver itself, for example Echo.sys</target>
+          </trans-unit>
+          <trans-unit id="138" xml:space="preserve">
+            <source>The driver INF file that is used by the dashboard to facilitate the signing process.</source>
+            <target state="new">The driver INF file that is used by the dashboard to facilitate the signing process.</target>
+          </trans-unit>
+          <trans-unit id="139" xml:space="preserve">
+            <source>Catalog .CAT files are not required.</source>
+            <target state="new">Catalog .CAT files are not required.</target>
+          </trans-unit>
+          <trans-unit id="140" xml:space="preserve">
+            <source>Microsoft regenerates catalog files and replaces any catalog files that were   submitted.</source>
+            <target state="new">Microsoft regenerates catalog files and replaces any catalog files that were   submitted.</target>
+          </trans-unit>
+          <trans-unit id="141" xml:space="preserve">
+            <source>The Microsoft provided replacement catalog is also signed.</source>
+            <target state="new">The Microsoft provided replacement catalog is also signed.</target>
+          </trans-unit>
+          <trans-unit id="142" xml:space="preserve">
+            <source>Use MakeCab.exe to process the DDF file and create a cab file.</source>
+            <target state="new">Use MakeCab.exe to process the DDF file and create a cab file.</target>
+          </trans-unit>
+          <trans-unit id="143" xml:space="preserve">
+            <source>Open a Command Prompt window as Administrator.</source>
+            <target state="new">Open a Command Prompt window as Administrator.</target>
+          </trans-unit>
+          <trans-unit id="144" xml:space="preserve">
+            <source>Then enter the following command to view the MakeCab options:</source>
+            <target state="new">Then enter the following command to view the MakeCab options:</target>
+          </trans-unit>
+          <trans-unit id="145" xml:space="preserve">
+            <source>MakeCab /?</source>
+            <target state="new">MakeCab /?</target>
+          </trans-unit>
+          <trans-unit id="146" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="147" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="148" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="149" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="150" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="151" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="152" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="153" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept>C:\Echo&gt; MakeCab /?</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept>C:\Echo&gt; MakeCab /?</target>
+          </trans-unit>
+          <trans-unit id="154" xml:space="preserve">
+            <source>Cabinet Maker - Lossless Data Compression Tool</source>
+            <target state="new">Cabinet Maker - Lossless Data Compression Tool</target>
+          </trans-unit>
+          <trans-unit id="155" xml:space="preserve">
+            <source>MAKECAB [/V[n]] <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>/D var=value ...[/l dir]<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept> source [destination]</source>
+            <target state="new">MAKECAB [/V[n]] <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>/D var=value ...[/l dir]<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept> source [destination]</target>
+          </trans-unit>
+          <trans-unit id="156" xml:space="preserve">
+            <source>MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]</source>
+            <target state="new">MAKECAB [/V[n]] [/D var=value ...] /F directive_file [...]</target>
+          </trans-unit>
+          <trans-unit id="157" xml:space="preserve">
+            <source>source         File to compress.</source>
+            <target state="new">source         File to compress.</target>
+          </trans-unit>
+          <trans-unit id="158" xml:space="preserve">
+            <source>destination    File name to give compressed file.</source>
+            <target state="new">destination    File name to give compressed file.</target>
+          </trans-unit>
+          <trans-unit id="159" xml:space="preserve">
+            <source>If omitted, the</source>
+            <target state="new">If omitted, the</target>
+          </trans-unit>
+          <trans-unit id="160" xml:space="preserve">
+            <source>last character of the source file name is replaced</source>
+            <target state="new">last character of the source file name is replaced</target>
+          </trans-unit>
+          <trans-unit id="161" xml:space="preserve">
+            <source>with an underscore (_) and used as the destination.</source>
+            <target state="new">with an underscore (_) and used as the destination.</target>
+          </trans-unit>
+          <trans-unit id="162" xml:space="preserve">
+            <source>/F directives  A file with MakeCAB directives (may be repeated).</source>
+            <target state="new">/F directives  A file with MakeCAB directives (may be repeated).</target>
+          </trans-unit>
+          <trans-unit id="163" xml:space="preserve">
+            <source>Refer to</source>
+            <target state="new">Refer to</target>
+          </trans-unit>
+          <trans-unit id="164" xml:space="preserve">
+            <source>Microsoft Cabinet SDK for information on directive_file.</source>
+            <target state="new">Microsoft Cabinet SDK for information on directive_file.</target>
+          </trans-unit>
+          <trans-unit id="165" xml:space="preserve">
+            <source>/D var=value   Defines variable with specified value.</source>
+            <target state="new">/D var=value   Defines variable with specified value.</target>
+          </trans-unit>
+          <trans-unit id="166" xml:space="preserve">
+            <source>/L dir         Location to place destination (default is current directory).</source>
+            <target state="new">/L dir         Location to place destination (default is current directory).</target>
+          </trans-unit>
+          <trans-unit id="167" xml:space="preserve">
+            <source>/V[n]          Verbosity level (1..3).<bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept></source>
+            <target state="new">/V[n]          Verbosity level (1..3).<bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="168" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="169" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="170" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="171" xml:space="preserve">
+            <source>Prepare a cab file DDF input file.</source>
+            <target state="new">Prepare a cab file DDF input file.</target>
+          </trans-unit>
+          <trans-unit id="172" xml:space="preserve">
+            <source>For our Echo driver it might look something like this.</source>
+            <target state="new">For our Echo driver it might look something like this.</target>
+          </trans-unit>
+          <trans-unit id="173" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="174" xml:space="preserve">
+            <source>;<bpt id="2">&lt;em&gt;</bpt>*<ept id="2">&lt;/em&gt;</ept> Echo.ddf example
+  ;
+  .OPTION EXPLICIT     ; Generate errors
+  .Set CabinetFileCountThreshold=0
+  .Set FolderFileCountThreshold=0
+  .Set FolderSizeThreshold=0
+  .Set MaxCabinetSize=0
+  .Set MaxDiskFileCount=0
+  .Set MaxDiskSize=0
+  .Set CompressionType=MSZIP
+  .Set Cabinet=on
+  .Set Compress=on
+  ;Specify file name for new cab file
+  .Set CabinetNameTemplate=Echo.cab
+  ;Specify files to be included in cab file
+  C:\Echo\Echo.Inf
+  C:\Echo\Echo.Sys</source>
+            <target state="new">;<bpt id="2">&lt;em&gt;</bpt>*<ept id="2">&lt;/em&gt;</ept> Echo.ddf example
+  ;
+  .OPTION EXPLICIT     ; Generate errors
+  .Set CabinetFileCountThreshold=0
+  .Set FolderFileCountThreshold=0
+  .Set FolderSizeThreshold=0
+  .Set MaxCabinetSize=0
+  .Set MaxDiskFileCount=0
+  .Set MaxDiskSize=0
+  .Set CompressionType=MSZIP
+  .Set Cabinet=on
+  .Set Compress=on
+  ;Specify file name for new cab file
+  .Set CabinetNameTemplate=Echo.cab
+  ;Specify files to be included in cab file
+  C:\Echo\Echo.Inf
+  C:\Echo\Echo.Sys</target>
+          </trans-unit>
+          <trans-unit id="175" xml:space="preserve">
+            <source><bpt id="1">&lt;em&gt;</bpt>Note<ept id="1">&lt;/em&gt;</ept>*  All driver folders in your cab must support the same set of architectures, for example, all drivers must be x86 or all drivers must be x64, or all drivers must support both x86 and x64.</source>
+            <target state="new"><bpt id="1">&lt;em&gt;</bpt>Note<ept id="1">&lt;/em&gt;</ept>*  All driver folders in your cab must support the same set of architectures, for example, all drivers must be x86 or all drivers must be x64, or all drivers must support both x86 and x64.</target>
+          </trans-unit>
+          <trans-unit id="176" xml:space="preserve">
+            <source>Call the makecab utility and provide the ddf file as input using the /f option.</source>
+            <target state="new">Call the makecab utility and provide the ddf file as input using the /f option.</target>
+          </trans-unit>
+          <trans-unit id="177" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="178" xml:space="preserve">
+            <source>C:\Echo&gt; MakeCab /f "C:\Echo\Echo.ddf</source>
+            <target state="new">C:\Echo&gt; MakeCab /f "C:\Echo\Echo.ddf</target>
+          </trans-unit>
+          <trans-unit id="179" xml:space="preserve">
+            <source>The output of makecab should display the number of files in the created cabinet, in our example 2.</source>
+            <target state="new">The output of makecab should display the number of files in the created cabinet, in our example 2.</target>
+          </trans-unit>
+          <trans-unit id="180" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="181" xml:space="preserve">
+            <source>C:\Echo&gt; MakeCab /f Echo.ddf
+ Cabinet Maker - Lossless Data Compression Tool
+
+ 17,682 bytes in 2 files
+ Total files:              2
+ Bytes before:        17,682
+ Bytes after:          7,374
+ After/Before:            41.70% compression
+ Time:                     0.20 seconds ( 0 hr  0 min  0.20 sec)
+ Throughput:              86.77 Kb/second</source>
+            <target state="new">C:\Echo&gt; MakeCab /f Echo.ddf
+ Cabinet Maker - Lossless Data Compression Tool
+
+ 17,682 bytes in 2 files
+ Total files:              2
+ Bytes before:        17,682
+ Bytes after:          7,374
+ After/Before:            41.70% compression
+ Time:                     0.20 seconds ( 0 hr  0 min  0.20 sec)
+ Throughput:              86.77 Kb/second</target>
+          </trans-unit>
+          <trans-unit id="182" xml:space="preserve">
+            <source>Locate the cab file in the Disk1 subdirectory.</source>
+            <target state="new">Locate the cab file in the Disk1 subdirectory.</target>
+          </trans-unit>
+          <trans-unit id="183" xml:space="preserve">
+            <source>You can click the cab file in File Explorer to verify that it contains the expected files.</source>
+            <target state="new">You can click the cab file in File Explorer to verify that it contains the expected files.</target>
+          </trans-unit>
+          <trans-unit id="184" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Sign the Submission Cab File with your EV Cert</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Sign the Submission Cab File with your EV Cert</target>
+          </trans-unit>
+          <trans-unit id="185" xml:space="preserve">
+            <source>Use the process recommended by the EV cert provider to sign the cab file with your EV cert.</source>
+            <target state="new">Use the process recommended by the EV cert provider to sign the cab file with your EV cert.</target>
+          </trans-unit>
+          <trans-unit id="186" xml:space="preserve">
+            <source>For example, you might use the signtool and if you are using Verisign, you might specify their timestamp server.</source>
+            <target state="new">For example, you might use the signtool and if you are using Verisign, you might specify their timestamp server.</target>
+          </trans-unit>
+          <trans-unit id="187" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="188" xml:space="preserve">
+            <source>C:\Echo&gt; SignTool sign /v /s MY /n "Subject Name of the Signing Certificate" /t http://timestamp.verisign.com/scripts/timstamp.dll "C:\Echo\Disk1\Echo.cab"</source>
+            <target state="new">C:\Echo&gt; SignTool sign /v /s MY /n "Subject Name of the Signing Certificate" /t http://timestamp.verisign.com/scripts/timstamp.dll "C:\Echo\Disk1\Echo.cab"</target>
+          </trans-unit>
+          <trans-unit id="189" xml:space="preserve">
+            <source><bpt id="1">&lt;strong&gt;</bpt>Note<ept id="1">&lt;/strong&gt;</ept>  Use industry best practices to mange the security of the EV cert signing process.</source>
+            <target state="new"><bpt id="1">&lt;strong&gt;</bpt>Note<ept id="1">&lt;/strong&gt;</ept>  Use industry best practices to mange the security of the EV cert signing process.</target>
+          </trans-unit>
+          <trans-unit id="190" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Submit the EV signed Cab file using the Hardware Dev Center Dashboard</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Submit the EV signed Cab file using the Hardware Dev Center Dashboard</target>
+          </trans-unit>
+          <trans-unit id="191" xml:space="preserve">
+            <source>Submit the EV signed Cab file using the Hardware Dev Center Dashboard.</source>
+            <target state="new">Submit the EV signed Cab file using the Hardware Dev Center Dashboard.</target>
+          </trans-unit>
+          <trans-unit id="192" xml:space="preserve">
+            <source>For more information see <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>Driver Signing Properties<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept> and <bpt id="4CapsExtId1">&lt;link&gt;</bpt><bpt id="4CapsExtId2">&lt;linkText&gt;</bpt>File Signing Services<ept id="4CapsExtId2">&lt;/linkText&gt;</ept><bpt id="4CapsExtId3">&lt;title&gt;</bpt><ept id="4CapsExtId3">&lt;/title&gt;</ept><ept id="4CapsExtId1">&lt;/link&gt;</ept>.</source>
+            <target state="new">For more information see <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>Driver Signing Properties<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept> and <bpt id="4CapsExtId1">&lt;link&gt;</bpt><bpt id="4CapsExtId2">&lt;linkText&gt;</bpt>File Signing Services<ept id="4CapsExtId2">&lt;/linkText&gt;</ept><bpt id="4CapsExtId3">&lt;title&gt;</bpt><ept id="4CapsExtId3">&lt;/title&gt;</ept><ept id="4CapsExtId1">&lt;/link&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="193" xml:space="preserve">
+            <source>As part of the submission process you will indicate what architectures all of the drivers in the submission support.</source>
+            <target state="new">As part of the submission process you will indicate what architectures all of the drivers in the submission support.</target>
+          </trans-unit>
+          <trans-unit id="194" xml:space="preserve">
+            <source>Three options are available using the check boxes.</source>
+            <target state="new">Three options are available using the check boxes.</target>
+          </trans-unit>
+          <trans-unit id="195" xml:space="preserve">
+            <source>x86</source>
+            <target state="new">x86</target>
+          </trans-unit>
+          <trans-unit id="196" xml:space="preserve">
+            <source>x64</source>
+            <target state="new">x64</target>
+          </trans-unit>
+          <trans-unit id="197" xml:space="preserve">
+            <source>x86 and x64</source>
+            <target state="new">x86 and x64</target>
+          </trans-unit>
+          <trans-unit id="198" xml:space="preserve">
+            <source>All driver folders in your cab must support the same set of architectures, for example, all drivers must be x86 or all drivers must be x64 or support both x86 and x64.</source>
+            <target state="new">All driver folders in your cab must support the same set of architectures, for example, all drivers must be x86 or all drivers must be x64 or support both x86 and x64.</target>
+          </trans-unit>
+          <trans-unit id="199" xml:space="preserve">
+            <source>If you have drivers that support different combinations of architectures, create separate submissions.</source>
+            <target state="new">If you have drivers that support different combinations of architectures, create separate submissions.</target>
+          </trans-unit>
+          <trans-unit id="200" xml:space="preserve">
+            <source>You will also indicate if you are submitting universal drivers.</source>
+            <target state="new">You will also indicate if you are submitting universal drivers.</target>
+          </trans-unit>
+          <trans-unit id="201" xml:space="preserve">
+            <source>For more information see, <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>Getting Started with Universal Windows drivers<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept>.</source>
+            <target state="new">For more information see, <bpt id="2CapsExtId1">&lt;link&gt;</bpt><bpt id="2CapsExtId2">&lt;linkText&gt;</bpt>Getting Started with Universal Windows drivers<ept id="2CapsExtId2">&lt;/linkText&gt;</ept><bpt id="2CapsExtId3">&lt;title&gt;</bpt><ept id="2CapsExtId3">&lt;/title&gt;</ept><ept id="2CapsExtId1">&lt;/link&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="202" xml:space="preserve">
+            <source>The following screen shot shows the options for submitting the echo driver for signing.</source>
+            <target state="new">The following screen shot shows the options for submitting the echo driver for signing.</target>
+          </trans-unit>
+          <trans-unit id="203" xml:space="preserve">
+            <source><bpt id="1">&lt;linkText&gt;</bpt><ept id="1">&lt;/linkText&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;linkText&gt;</bpt><ept id="1">&lt;/linkText&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="204" xml:space="preserve">
+            <source>When the signing process is complete, download your signed driver from the Hardware Dev Center Dashboard.</source>
+            <target state="new">When the signing process is complete, download your signed driver from the Hardware Dev Center Dashboard.</target>
+          </trans-unit>
+          <trans-unit id="205" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Validate that the driver was properly signed</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Validate that the driver was properly signed</target>
+          </trans-unit>
+          <trans-unit id="206" xml:space="preserve">
+            <source>Complete the following steps to validate that the driver was properly signed.</source>
+            <target state="new">Complete the following steps to validate that the driver was properly signed.</target>
+          </trans-unit>
+          <trans-unit id="207" xml:space="preserve">
+            <source>After you have downloaded the submission file, extract the driver file.</source>
+            <target state="new">After you have downloaded the submission file, extract the driver file.</target>
+          </trans-unit>
+          <trans-unit id="208" xml:space="preserve">
+            <source>Open a Command Prompt window as Administrator.</source>
+            <target state="new">Open a Command Prompt window as Administrator.</target>
+          </trans-unit>
+          <trans-unit id="209" xml:space="preserve">
+            <source>Then enter the following command to verify that the driver was signed as expected.</source>
+            <target state="new">Then enter the following command to verify that the driver was signed as expected.</target>
+          </trans-unit>
+          <trans-unit id="210" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="211" xml:space="preserve">
+            <source>C:\Echo&gt; SignTool verify Echo.Sys</source>
+            <target state="new">C:\Echo&gt; SignTool verify Echo.Sys</target>
+          </trans-unit>
+          <trans-unit id="212" xml:space="preserve">
+            <source>To list additional information and have signtool verify all signatures in a file with multiple signatures, type the following.</source>
+            <target state="new">To list additional information and have signtool verify all signatures in a file with multiple signatures, type the following.</target>
+          </trans-unit>
+          <trans-unit id="213" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="214" xml:space="preserve">
+            <source>C:\Echo&gt; SignTool verify /pa /ph /v /d Echo.Sys</source>
+            <target state="new">C:\Echo&gt; SignTool verify /pa /ph /v /d Echo.Sys</target>
+          </trans-unit>
+          <trans-unit id="215" xml:space="preserve">
+            <source>To confirm the EKUs of the driver complete the following steps.</source>
+            <target state="new">To confirm the EKUs of the driver complete the following steps.</target>
+          </trans-unit>
+          <trans-unit id="216" xml:space="preserve">
+            <source>a.</source>
+            <target state="new">a.</target>
+          </trans-unit>
+          <trans-unit id="217" xml:space="preserve">
+            <source>Open Windows Explorer and locate the binary file.</source>
+            <target state="new">Open Windows Explorer and locate the binary file.</target>
+          </trans-unit>
+          <trans-unit id="218" xml:space="preserve">
+            <source>Right-click the file and select <bpt id="2">&lt;strong&gt;</bpt>Properties<ept id="2">&lt;/strong&gt;</ept>.</source>
+            <target state="new">Right-click the file and select <bpt id="2">&lt;strong&gt;</bpt>Properties<ept id="2">&lt;/strong&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="219" xml:space="preserve">
+            <source>b.</source>
+            <target state="new">b.</target>
+          </trans-unit>
+          <trans-unit id="220" xml:space="preserve">
+            <source>On the <bpt id="2">&lt;strong&gt;</bpt>Digital Signatures<ept id="2">&lt;/strong&gt;</ept> tab, select the listed item in the Signature list.</source>
+            <target state="new">On the <bpt id="2">&lt;strong&gt;</bpt>Digital Signatures<ept id="2">&lt;/strong&gt;</ept> tab, select the listed item in the Signature list.</target>
+          </trans-unit>
+          <trans-unit id="221" xml:space="preserve">
+            <source>c.</source>
+            <target state="new">c.</target>
+          </trans-unit>
+          <trans-unit id="222" xml:space="preserve">
+            <source>Select the <bpt id="2">&lt;strong&gt;</bpt>Details<ept id="2">&lt;/strong&gt;</ept> button, and then select <bpt id="4">&lt;strong&gt;</bpt>View Certificate<ept id="4">&lt;/strong&gt;</ept>.</source>
+            <target state="new">Select the <bpt id="2">&lt;strong&gt;</bpt>Details<ept id="2">&lt;/strong&gt;</ept> button, and then select <bpt id="4">&lt;strong&gt;</bpt>View Certificate<ept id="4">&lt;/strong&gt;</ept>.</target>
+          </trans-unit>
+          <trans-unit id="223" xml:space="preserve">
+            <source>d.</source>
+            <target state="new">d.</target>
+          </trans-unit>
+          <trans-unit id="224" xml:space="preserve">
+            <source>On the <bpt id="2">&lt;strong&gt;</bpt>Details<ept id="2">&lt;/strong&gt;</ept> tab, select the <bpt id="4">&lt;strong&gt;</bpt>Enhanced Key Usage<ept id="4">&lt;/strong&gt;</ept> field.</source>
+            <target state="new">On the <bpt id="2">&lt;strong&gt;</bpt>Details<ept id="2">&lt;/strong&gt;</ept> tab, select the <bpt id="4">&lt;strong&gt;</bpt>Enhanced Key Usage<ept id="4">&lt;/strong&gt;</ept> field.</target>
+          </trans-unit>
+          <trans-unit id="225" xml:space="preserve">
+            <source>When the driver is resigned by the dashboard the following process is used.</source>
+            <target state="new">When the driver is resigned by the dashboard the following process is used.</target>
+          </trans-unit>
+          <trans-unit id="226" xml:space="preserve">
+            <source>Appends a Microsoft SHA2 embedded signature.</source>
+            <target state="new">Appends a Microsoft SHA2 embedded signature.</target>
+          </trans-unit>
+          <trans-unit id="227" xml:space="preserve">
+            <source>If the driver binaries are embedded signed by the customer with their own certificates, those signatures will not be overwritten.</source>
+            <target state="new">If the driver binaries are embedded signed by the customer with their own certificates, those signatures will not be overwritten.</target>
+          </trans-unit>
+          <trans-unit id="228" xml:space="preserve">
+            <source>Creates and signs a new catalog file with a SHA2 Microsoft certificate.</source>
+            <target state="new">Creates and signs a new catalog file with a SHA2 Microsoft certificate.</target>
+          </trans-unit>
+          <trans-unit id="229" xml:space="preserve">
+            <source>This catalog replaces any existing catalog provided by the customer.</source>
+            <target state="new">This catalog replaces any existing catalog provided by the customer.</target>
+          </trans-unit>
+          <trans-unit id="230" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Test your driver on Windows 10 for Desktop</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Test your driver on Windows 10 for Desktop</target>
+          </trans-unit>
+          <trans-unit id="231" xml:space="preserve">
+            <source>Use the following instructions to install the sample driver.</source>
+            <target state="new">Use the following instructions to install the sample driver.</target>
+          </trans-unit>
+          <trans-unit id="232" xml:space="preserve">
+            <source>Open Device Manager, right click on the computer icon and select "Add legacy Hardware".</source>
+            <target state="new">Open Device Manager, right click on the computer icon and select "Add legacy Hardware".</target>
+          </trans-unit>
+          <trans-unit id="233" xml:space="preserve">
+            <source>Follow the prompts to complete the install of the driver.</source>
+            <target state="new">Follow the prompts to complete the install of the driver.</target>
+          </trans-unit>
+          <trans-unit id="234" xml:space="preserve">
+            <source>Alternatively, open a Command Prompt window as Administrator and use devcon to install the driver.</source>
+            <target state="new">Alternatively, open a Command Prompt window as Administrator and use devcon to install the driver.</target>
+          </trans-unit>
+          <trans-unit id="235" xml:space="preserve">
+            <source>Navigate to your driver package folder, and enter the following command.</source>
+            <target state="new">Navigate to your driver package folder, and enter the following command.</target>
+          </trans-unit>
+          <trans-unit id="236" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="237" xml:space="preserve">
+            <source>C:\Echo&gt; devcon install echo.inf root\ECHO</source>
+            <target state="new">C:\Echo&gt; devcon install echo.inf root\ECHO</target>
+          </trans-unit>
+          <trans-unit id="238" xml:space="preserve">
+            <source>Confirm that the driver install process does not display the "Windows can't verify the publisher of this driver software."</source>
+            <target state="new">Confirm that the driver install process does not display the "Windows can't verify the publisher of this driver software."</target>
+          </trans-unit>
+          <trans-unit id="239" xml:space="preserve">
+            <source>Windows security dialog box.</source>
+            <target state="new">Windows security dialog box.</target>
+          </trans-unit>
+          <trans-unit id="240" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Create a Multiple Driver Submission</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept><bpt id="3">&lt;html&gt;</bpt><ept id="3">&lt;/html&gt;</ept><bpt id="4">&lt;html&gt;</bpt><ept id="4">&lt;/html&gt;</ept><bpt id="5">&lt;html&gt;</bpt><ept id="5">&lt;/html&gt;</ept><bpt id="6">&lt;html&gt;</bpt><ept id="6">&lt;/html&gt;</ept>Create a Multiple Driver Submission</target>
+          </trans-unit>
+          <trans-unit id="241" xml:space="preserve">
+            <source>To submit multiple drivers at the same time, create a sub directory for each driver as shown below.</source>
+            <target state="new">To submit multiple drivers at the same time, create a sub directory for each driver as shown below.</target>
+          </trans-unit>
+          <trans-unit id="242" xml:space="preserve">
+            <source><bpt id="1">&lt;linkText&gt;</bpt><ept id="1">&lt;/linkText&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;linkText&gt;</bpt><ept id="1">&lt;/linkText&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="243" xml:space="preserve">
+            <source>Submitting debug pdb symbol files for signing is optional.</source>
+            <target state="new">Submitting debug pdb symbol files for signing is optional.</target>
+          </trans-unit>
+          <trans-unit id="244" xml:space="preserve">
+            <source>Prepare a cab file DDF input file that references the subdirectories.</source>
+            <target state="new">Prepare a cab file DDF input file that references the subdirectories.</target>
+          </trans-unit>
+          <trans-unit id="245" xml:space="preserve">
+            <source>It might look something like this.</source>
+            <target state="new">It might look something like this.</target>
+          </trans-unit>
+          <trans-unit id="246" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="247" xml:space="preserve">
+            <source>;<bpt id="2">&lt;em&gt;</bpt>*<ept id="2">&lt;/em&gt;</ept> Submission.ddf multiple driver example
+;
+.OPTION EXPLICIT     ; Generate errors
+.Set CabinetFileCountThreshold=0
+.Set FolderFileCountThreshold=0
+.Set FolderSizeThreshold=0
+.Set MaxCabinetSize=0
+.Set MaxDiskFileCount=0
+.Set MaxDiskSize=0
+.Set CompressionType=MSZIP
+.Set Cabinet=on
+.Set Compress=on
+;Specify file name for new cab file
+.Set CabinetNameTemplate=Echo.cab
+;Specify files to be included in cab file
+; First Driver
+C:\DriverFiles\DriverPackage1\Driver1.sys
+C:\DriverFiles\DriverPackage1\Driver1.inf
+; Second driver
+C:\DriverFiles\DriverPackage2\Driver2.sys
+C:\DriverFiles\DriverPackage2\Driver2.inf
+; Optional Symbols
+C:\DriverFiles\Symbols\Driver1.pdb
+C:\DriverFiles\Symbols\Driver2.pdb</source>
+            <target state="new">;<bpt id="2">&lt;em&gt;</bpt>*<ept id="2">&lt;/em&gt;</ept> Submission.ddf multiple driver example
+;
+.OPTION EXPLICIT     ; Generate errors
+.Set CabinetFileCountThreshold=0
+.Set FolderFileCountThreshold=0
+.Set FolderSizeThreshold=0
+.Set MaxCabinetSize=0
+.Set MaxDiskFileCount=0
+.Set MaxDiskSize=0
+.Set CompressionType=MSZIP
+.Set Cabinet=on
+.Set Compress=on
+;Specify file name for new cab file
+.Set CabinetNameTemplate=Echo.cab
+;Specify files to be included in cab file
+; First Driver
+C:\DriverFiles\DriverPackage1\Driver1.sys
+C:\DriverFiles\DriverPackage1\Driver1.inf
+; Second driver
+C:\DriverFiles\DriverPackage2\Driver2.sys
+C:\DriverFiles\DriverPackage2\Driver2.inf
+; Optional Symbols
+C:\DriverFiles\Symbols\Driver1.pdb
+C:\DriverFiles\Symbols\Driver2.pdb</target>
+          </trans-unit>
+          <trans-unit id="248" xml:space="preserve">
+            <source>Follow the steps previously described to sign, submit and test the driver files.</source>
+            <target state="new">Follow the steps previously described to sign, submit and test the driver files.</target>
+          </trans-unit>
+          <trans-unit id="249" xml:space="preserve">
+            <source><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept>Related topics</source>
+            <target state="new"><bpt id="1">&lt;html&gt;</bpt><ept id="1">&lt;/html&gt;</ept><bpt id="2">&lt;html&gt;</bpt><ept id="2">&lt;/html&gt;</ept>Related topics</target>
+          </trans-unit>
+          <trans-unit id="250" xml:space="preserve">
+            <source><bpt id="1CapsExtId1">&lt;link&gt;</bpt><bpt id="1CapsExtId2">&lt;linkText&gt;</bpt>Signing a Driver<ept id="1CapsExtId2">&lt;/linkText&gt;</ept><bpt id="1CapsExtId3">&lt;title&gt;</bpt><ept id="1CapsExtId3">&lt;/title&gt;</ept><ept id="1CapsExtId1">&lt;/link&gt;</ept></source>
+            <target state="new"><bpt id="1CapsExtId1">&lt;link&gt;</bpt><bpt id="1CapsExtId2">&lt;linkText&gt;</bpt>Signing a Driver<ept id="1CapsExtId2">&lt;/linkText&gt;</ept><bpt id="1CapsExtId3">&lt;title&gt;</bpt><ept id="1CapsExtId3">&lt;/title&gt;</ept><ept id="1CapsExtId1">&lt;/link&gt;</ept></target>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="251" />
+      </group>
+    </body>
+  </file>
+</xliff>
