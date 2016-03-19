@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "content": "OpenLocalization Workflow Test MarkDown",
+      "pos": [
+        3,
+        42
+      ]
+    },
+    {
+      "pos": [
+        46,
+        118
+      ],
+      "content": "[AZURE.INCLUDE <bpt id=\"p1\">[</bpt>calleeMd1<ept id=\"p1\">](e2e\\f3d1bc6c-10b2-4dec-8f3d-fec4906c95d3.md)</ept>]"
+    },
+    {
+      "content": "[AZURE.INCLUDE <bpt id=\"p1\">[</bpt>calleeMd2<ept id=\"p1\">](e2e\\dafc9c45-55ec-4da2-9a56-393cf014f1b3.md)</ept>]",
+      "pos": [
+        120,
+        192
+      ]
+    },
+    {
+      "content": "thanks!",
+      "pos": [
+        194,
+        201
+      ]
+    }
+  ],
+  "content": "## OpenLocalization Workflow Test MarkDown\n* \n[AZURE.INCLUDE [calleeMd1](e2e\\f3d1bc6c-10b2-4dec-8f3d-fec4906c95d3.md)]\n\n[AZURE.INCLUDE [calleeMd2](e2e\\dafc9c45-55ec-4da2-9a56-393cf014f1b3.md)] \nthanks!"
+}
