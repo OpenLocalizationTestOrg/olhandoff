@@ -3,14 +3,22 @@
   <file datatype="xml" original="md" source-language="en-US" target-language="de-de">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ht-test</xliffext:oltranslationpriority>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a048092ef32f7167a3cfd0ab2718722bb0f90072</xliffext:olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51d7f3af06d744b8e17e9f191ed52810e9a91cd1</xliffext:olfilehash>
       <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
-          <source>test worker role</source>
-          <target state="new">test worker role</target>
+          <source>oltest</source>
+          <target state="new">oltest</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>this repository is used for open localization e2e test</source>
+          <target state="new">this repository is used for open localization e2e test</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>trouble shooting for yaml handoff</source>
+          <target state="new">trouble shooting for yaml handoff</target>
         </trans-unit>
       </group>
     </body>
