@@ -3,7 +3,7 @@
   <file datatype="xml" original="md" source-language="en-US" target-language="zh-cn">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ht-test</xliffext:oltranslationpriority>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">494f2f4ee04c62e79e80fe6a8519b361486fead4</xliffext:olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9f2cae8c8f715a8bab071ea5a984a6df6297c9a</xliffext:olfilehash>
       <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
     </header>
     <body>
@@ -27,6 +27,10 @@
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>this is <ph id="ph1">&lt;b&gt;</ph>inline<ph id="ph2">&lt;/b&gt;</ph> part</source>
           <target state="new">this is <ph id="ph1">&lt;b&gt;</ph>inline<ph id="ph2">&lt;/b&gt;</ph> part</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>gfh</source>
+          <target state="new">gfh</target>
         </trans-unit>
       </group>
     </body>
