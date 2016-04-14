@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="pl-pl">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ht-test</xliffext:oltranslationpriority>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9f2cae8c8f715a8bab071ea5a984a6df6297c9a</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-708c90d" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Pong!</source>
+          <target state="new">Pong!</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>1</source>
+          <target state="new">1</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>add performance scope</source>
+          <target state="new">add performance scope</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>run command <ph id="ph1">&lt;code language="javascript"&gt;</ph><ph id="ph2">var array = [];</ph><ph id="ph3">&lt;/code&gt;</ph></source>
+          <target state="new">run command <ph id="ph1">&lt;code language="javascript"&gt;</ph><ph id="ph2">var array = [];</ph><ph id="ph3">&lt;/code&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>this is <ph id="ph1">&lt;b&gt;</ph>inline<ph id="ph2">&lt;/b&gt;</ph> part</source>
+          <target state="new">this is <ph id="ph1">&lt;b&gt;</ph>inline<ph id="ph2">&lt;/b&gt;</ph> part</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>gfh</source>
+          <target state="new">gfh</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
