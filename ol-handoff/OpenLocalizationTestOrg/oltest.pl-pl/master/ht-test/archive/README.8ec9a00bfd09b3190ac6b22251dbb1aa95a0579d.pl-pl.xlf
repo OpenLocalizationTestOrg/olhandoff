@@ -3,7 +3,7 @@
   <file datatype="xml" original="md" source-language="en-US" target-language="pl-pl">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ht-test</xliffext:oltranslationpriority>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">916dbf2a885a8874e0ab19aa0b629d578ed76fc8</xliffext:olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3fa4fe06dd05e29d5ffc4f84dc4eae9fc052e076</xliffext:olfilehash>
       <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-708c90d" tool-company="Microsoft" />
     </header>
     <body>
@@ -23,6 +23,10 @@
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>sds</source>
           <target state="new">sds</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>new for deleted configuration</source>
+          <target state="new">new for deleted configuration</target>
         </trans-unit>
       </group>
     </body>
