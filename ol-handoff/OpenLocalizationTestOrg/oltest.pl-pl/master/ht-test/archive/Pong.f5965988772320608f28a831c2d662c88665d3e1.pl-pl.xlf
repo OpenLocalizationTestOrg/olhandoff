@@ -3,8 +3,8 @@
   <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
     <header>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ht-test</xliffext:oltranslationpriority>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a204bff74e5e64359769dd1b44a33f18ca4c842</xliffext:olfilehash>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-46be25e" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1738264a4f81d5cf5eac21b79a9865c51e0b5505</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4c1d669" tool-company="Microsoft" />
     </header>
     <body>
       <group id="content" extype="content">
@@ -21,8 +21,8 @@
           <target state="new">add performance scope</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>run command <ph id="ph1">&lt;code language="javascript"&gt;</ph><ph id="ph2">var array = [];</ph><ph id="ph3">&lt;/code&gt;</ph></source>
-          <target state="new">run command <ph id="ph1">&lt;code language="javascript"&gt;</ph><ph id="ph2">var array = [];</ph><ph id="ph3">&lt;/code&gt;</ph></target>
+          <source>run command</source>
+          <target state="new">run command</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>this is <ph id="ph1">&lt;b&gt;</ph>inline<ph id="ph2">&lt;/b&gt;</ph> part</source>
@@ -35,6 +35,10 @@
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>sfdsdf</source>
           <target state="new">sfdsdf</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>triger handoff</source>
+          <target state="new">triger handoff</target>
         </trans-unit>
       </group>
     </body>
